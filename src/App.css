@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f4f8;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cape {
+  border-color: gold;
+}
+
+.cape-yes {
+  color: darkgreen;
+  font-weight: bold;
+}
