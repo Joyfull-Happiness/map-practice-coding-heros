@@ -1,13 +1,15 @@
 import './App.css';
 import { data } from './data.js';
-import './components/HeroCard.jsx'; 
+import HeroCard from './components/HeroCard.jsx'; 
 
 function App() {
   return (
     <div className="app">
       <h1>Coding Heroes</h1>
       <div className="card-container">
- 
+      {data.map((item, index) => (
+        <HeroCard key={index} product={item} />
+      ))}
       </div>
     </div>
   );

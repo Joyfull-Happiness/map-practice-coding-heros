@@ -24,4 +24,4 @@ return (
 
 
 
-export default HeroCard.jsx;
+export default HeroCard;
