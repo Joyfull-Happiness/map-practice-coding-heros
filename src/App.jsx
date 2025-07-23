@@ -1,5 +1,5 @@
 import './App.css';
-import { data } from './data.js';
+import { codingHeroes } from './data.js';
 import HeroCard from './components/HeroCard.jsx'; 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="app">
       <h1>Coding Heroes</h1>
       <div className="card-container">
-      {data.map((item, index) => (
+      {codingHeroes.map((item, index) => (
         <HeroCard key={index} product={item} />
       ))}
       </div>

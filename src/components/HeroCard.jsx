@@ -5,14 +5,15 @@ return (
 
 <div >
     <h3>{product.name}</h3>
-      <p>Price: ${product.price.toFixed(2)}</p>{' '}
+      <p>Level: {product.level.toFixed(2)}</p>{' '}
       {/* .toFixed(2) for nice currency format */}
-      <p>Category: {product.category}</p>
+      <p>language: {product.language}</p>
+      <p>language: {product.language}</p>
       {/* Conditional rendering for stock status */}
-      {product.inStock ? (
-        <p style={{ color: 'green', fontWeight: 'bold' }}>In Stock</p>
+      {product.hasCape ? (
+        <p style={{ color: 'green', fontWeight: 'bold' }}>YES A CAPE</p>
       ) : (
-        <p style={{ color: 'red', fontWeight: 'bold' }}>Out of Stock</p>
+        <p style={{ color: 'red', fontWeight: 'bold' }}>HOW CAN THEY NOT HAVE A CAPE!?</p>
       )}
     
     
