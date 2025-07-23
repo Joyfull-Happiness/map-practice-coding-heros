@@ -1,4 +1,6 @@
 import './App.css';
+import { data } from './data.js';
+import './components/HeroCard.jsx'; 
 
 function App() {
   return (
