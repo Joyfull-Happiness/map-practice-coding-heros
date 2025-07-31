@@ -1,3 +1,6 @@
+/* below is an array of objects that will be used in the APP.jsx
+ */
+
 export const codingHeroes = [
   {
     name: 'LoopMaster',
